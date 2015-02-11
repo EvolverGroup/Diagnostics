@@ -220,7 +220,7 @@ class Reporter implements ReporterInterface
     protected function writeSummaryOutput(ResultsCollection $results)
     {
         if ($this->stopped) {
-            $this->getOutput()->write('Diagnostics aborted because of a failure.');
+            $this->getOutput()->writeln('Diagnostics aborted because of a failure.');
             return;
         }
 
@@ -242,14 +242,14 @@ class Reporter implements ReporterInterface
                 $buffer[] = sprintf('Unknown results: %u', $results->getUnknownCount());
             }
 
-            $this->getOutput()->write(sprintf(
+            $this->getOutput()->writeln(sprintf(
                 '<fg=white;bg=red>%s</fg=white;bg=red>',
                 implode(', ', $buffer)
             ));
             return;
         }
 
-        $this->getOutput()->write(sprintf(
+        $this->getOutput()->writeln(sprintf(
             '<fg=black;bg=green>OK (%u tests)</fg=black;bg=green>',
             $results->getSuccessCount()
         ));
