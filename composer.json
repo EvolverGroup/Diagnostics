@@ -2,6 +2,7 @@
     "name": "evolver/diagnostics",
     "description": "Configurable diagnostic tests for PHP applications",
     "require": {
+        "php": ">=5.4",
         "herrera-io/version": "~1.1",
         "symfony/console": "~2.6",
         "symfony/yaml": "~2.6",
