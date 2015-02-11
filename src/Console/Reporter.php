@@ -220,7 +220,7 @@ class Reporter implements ReporterInterface
     protected function writeSummaryOutput(ResultsCollection $results)
     {
         if ($this->stopped) {
-            $this->getOutput()->writeln('Diagnostics aborted because of a failure.');
+            $this->getOutput()->writeln('<comment>Diagnostics aborted because of a failure.</comment>');
             return;
         }
 
@@ -243,7 +243,7 @@ class Reporter implements ReporterInterface
             }
 
             $this->getOutput()->writeln(sprintf(
-                '<fg=white;bg=red>%s</fg=white;bg=red>',
+                '<error>%s</error>',
                 implode(', ', $buffer)
             ));
             return;

@@ -106,7 +106,7 @@ class CheckCommand extends Command
         $configFile = new \SplFileInfo($input->getArgument('config'));
         if (!$configFile->isFile()) {
             $output->writeln(
-                sprintf('<error>Unable to read diagnostics config file "%s".</error>', $configFile) . PHP_EOL
+                sprintf('<error>Unable to read diagnostics config file "%s".</error>', $configFile)
             );
             return 1;
         }
