@@ -28,7 +28,7 @@ class Application extends \Symfony\Component\Console\Application
     /**
      * Application version
      */
-    const VERSION = '0.0.1';
+    const VERSION = '@package_version@';
 
     /**
      * Diagnostics runner instance
