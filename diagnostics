@@ -7,16 +7,18 @@
  * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
+if (!ini_get('date.timezone')) {
+    ini_set('date.timezone', 'UTC');
+}
+
 foreach (array(__DIR__ . '/../..', __DIR__ . '/..', __DIR__) as $dir) {
     if (file_exists($dir . '/vendor/autoload.php')) {
-        chdir($dir);
+        require $dir . '/vendor/autoload.php';
         break;
     }
 }
 
 unset($dir);
-
-require 'vendor/autoload.php';
 
 $application = new \Evolver\Diagnostics\Console\Application();
 $application->run();
