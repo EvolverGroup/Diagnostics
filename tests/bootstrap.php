@@ -1,10 +1,9 @@
 <?php
 /**
- * Bootstrapping for PHPUnit-Tests
+ * This file is part of the evolver diagnostics project.
  *
- * @copyright Copyright (c) 2014, evolver media GmbH & Co. KG (http://evolver.de)
- * @author    Daniel Schröder <daniel.schroeder@evolver.de>
- * @version   SVN: $Id$
+ * @copyright Copyright (c) 2015, evolver media GmbH & Co. KG <info@evolver.de>
+ * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
  */
 
 /**
