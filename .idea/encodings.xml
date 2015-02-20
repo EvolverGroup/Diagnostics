@@ -3,6 +3,7 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="file://$PROJECT_DIR$/.gitignore" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LICENSE" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/README.md" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/box.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/composer.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/diagnostics" charset="UTF-8" />
@@ -10,5 +11,6 @@
     <file url="file://$PROJECT_DIR$/src/Console/Command/CheckCommand.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Console/Reporter.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tests/bootstrap.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/vendor/zendframework/zenddiagnostics/src/ZendDiagnostics/Runner/Runner.php" charset="UTF-8" />
   </component>
 </project>
