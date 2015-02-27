@@ -7,10 +7,12 @@
     <file url="file://$PROJECT_DIR$/box.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/composer.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/diagnostics" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Config/Check.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Console/Application.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Console/Command/CheckCommand.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Console/Reporter.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tests/bootstrap.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vendor/zendframework/zenddiagnostics/src/ZendDiagnostics/Runner/Runner.php" charset="UTF-8" />
+    <file url="file://W:/2/vendor/evolver/diagnostics/diagnostics" charset="UTF-8" />
   </component>
 </project>
