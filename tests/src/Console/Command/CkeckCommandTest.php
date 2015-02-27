@@ -3,7 +3,7 @@
  * This file is part of the evolver diagnostics project.
  *
  * @copyright Copyright (c) 2015, evolver media GmbH & Co. KG <info@evolver.de>
- * @author Daniel Schröder <daniel.schroeder@gravitymedia.de>
+ * @author Daniel Schröder <daniel.schroeder@evolver.de>
  */
 
 namespace Evolver\DiagnosticsTest\Console\Command;
